@@ -14,6 +14,7 @@ class Kfilemetadata < Formula
   depends_on "qt5" => "with-dbus"
   depends_on "shared-mime-info"
   depends_on "ffmpeg"
+  depends_on "libav"
 
   def install
     args = std_cmake_args
